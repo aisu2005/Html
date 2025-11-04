@@ -1,0 +1,21 @@
+<html>
+<body>
+<center>
+<h1> Hover over the image to see other</h1>
+<img id="pic" src="/home/ksb/Aiswarya25/Images/daisy2.jpeg" width="300" height=300 onmouseover="change()" onmouseout="reset()">
+<p id="text"> Daisy flower</p>
+<script>
+
+function change(){
+        document.getElementById("pic").src="/home/ksb/Aiswarya25/Images/tulip.jpg";
+        document.getElementById("text").innerHTML="Tulip Flower";
+      }
+
+function reset(){
+        document.getElementById("pic").src="/home/ksb/Aiswarya25/Images/daisy2.jpeg";
+        document.getElementById("text").innerHTML="Daisy flower";
+      }
+</script>
+</center>
+</body>
+</html>
